@@ -82,6 +82,7 @@ public class ArrayExamples {
 		// COMPILE ERROR!!
 		// int marks4[] = {10,15.0}; //10 is int 15.0 is float
 
+		// TODO: KG: short variable olsaydi cast edilebilirdi ama short array int array e cast edilemez
 		// Cross assigment of primitive arrays is ILLEGAL
 		int[] ints = new int[5];
 		short[] shorts = new short[5];
@@ -96,6 +97,7 @@ public class ArrayExamples {
 		// First dimension is necessary to create a 2D Array
 		// Best way to visualize a 2D array is as an array of arrays
 		// ArrayOnHeap.xls
+		// TODO: KG: Asagidaki tanim yapilabilir.
 		matrixA = new int[3][];// FINE
 		// matrixA = new int[][5];//COMPILER ERROR
 		// matrixA = new int[][];//COMPILER ERROR
